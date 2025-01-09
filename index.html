@@ -4,115 +4,231 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <!-- header -->
-    <div class="header">
-      <div class="container header-content">
-        <p class="title">
-          <span class="p-medium">Получи скидку 50%</span> на первый месяц аренды
-          <span class="p-medium">или бесплатный переезд!</span>
-        </p>
-        <button class="button">Как это работает</button>
-        <div class="header-bar">
-          <div class="header-card">
-            <img src="./img/computer.png" alt="" />
-            <h5>Вы находите помещение</h5>
-            <p>
-              Направляете нам ссылку на объявление, мы свяжемся с собственником
-              и назначим встречу
-            </p>
-          </div>
-
-          <div class="header-card">
-            <img src="./img/people.png" alt="" />
-            <h5>Вы находите помещение</h5>
-            <p>
-              Направляете нам ссылку на объявление, мы свяжемся с собственником
-              и назначим встречу
-            </p>
-          </div>
-
-          <div class="header-card">
-            <img src="./img/suhbat.png" alt="" />
-            <h5>Вы находите помещение</h5>
-            <p>
-              Направляете нам ссылку на объявление, мы свяжемся с собственником
-              и назначим встречу
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- header-end -->
-    <!-- free -->
-    <div class="free">
-      <div class="container free-content">
-        <div class="title">
-          Для вас это абсолютно <span class="p-medium">бесплатно!</span>
-        </div>
-        <div class="free-bar">
-          <div class="free-card">
-            <img src="./img/dollar.png" alt="" />
-            <h3>157000 рублей</h3>
-            <p>максимальная сумма, которую мы заплатили клиентам</p>
-          </div>
-
-          <div class="free-card">
-            <img src="./img/person.png" alt="" />
-            <h3>157000 рублей</h3>
-            <p>максимальная сумма, которую мы заплатили клиентам</p>
-          </div>
-
-          <div class="free-card">
-            <img src="./img/pig.png" alt="" />
-            <h3>157000 рублей</h3>
-            <p>максимальная сумма, которую мы заплатили клиентам</p>
-          </div>
-
-          <div class="free-card">
-            <img src="./img/dollar-p.png" alt="" />
-            <h3>157000 рублей</h3>
-            <p>максимальная сумма, которую мы заплатили клиентам</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- free end -->
-     <!-- taklif -->
-      <div class="taklif">
-        <div class="conatiner taklif-content">
-          <h2 class="title">
-            Наше <span class="p-medium"> предложение</span> актуально <span class="p-medium">для:</span>
-          </h2>
-          <div class="taklif-bar">
-            <div class="taklif-card taklif-left">
-              <div class="taklif-text">
-                <h3>Владельцев бизнеса</h3>
-                <p>Ищете помещение и хотите сэкономить средства 
-                  компании – мы поможем вам в этом: выберем вместе с вами наилучший вариант, договоримся по условиям с собственником и вернем вам половину нашей комиссии.</p>
-              </div>
-              <img src="./img/boy.png" alt="">
+    <div class="skidka mb-5">
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1 class="skidka-h1 text-center mb-5 mt-3">
+          Получи скидку 50% на первый месяц аренды или бесплатный переезд!
+        </h1>
+        <button class="btn btn-primary rounded-5 py-3 mb-3">
+          Как это работает
+        </button>
+        <div class="row justify-content-center">
+          <div
+            class="col-lg-4 col-sm-6 px-3 py-5 d-flex flex-column align-items-center justify-content-center text-center"
+          >
+            <div>
+              <img src="./img/computer.png" alt="" />
+              <h5 class="">Вы находите помещение</h5>
+              <p class="">
+                Направляете нам ссылку на объявление, мы свяжемся с
+                собственником и назначим встречу
+              </p>
             </div>
-
-            <div class="taklif-card taklif-left">
-              <div class="taklif-text">
-                <h3>Владельцев бизнеса</h3>
-                <p>Ищете помещение и хотите сэкономить средства 
-                  компании – мы поможем вам в этом: выберем вместе с вами наилучший вариант, договоримся по условиям с собственником и вернем вам половину нашей комиссии.</p>
-              </div>
-              <img src="./img/worker.png" alt="">
+          </div>
+          <div
+            class="col-lg-4 col-sm-6 px-3 py-5 d-flex flex-column align-items-center justify-content-center text-center"
+          >
+            <div>
+              <img src="img/people.png" alt="" />
+              <h5>Мы выезжаем с вами как агенты</h5>
+              <p>
+                Вместе с вами отправляемся к собственнику помещения в качестве
+                агентов
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6 px-3 py-5 d-flex flex-column align-items-center justify-content-center text-center"
+          >
+            <div>
+              <img src="img/suhbat.png" alt="" />
+              <h5>Оплата комисии</h5>
+              <p>
+                Собственник платит нам комиссию, и мы делимся ею с вами на месте
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <!-- taklif-end -->
+    </div>
+    <div class="tekin">
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1 class="text-center mb-5 mt-3">Для вас это абсолютно бесплатно!</h1>
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-3 p-3"
+            >
+              <img src="./img/dollar.png" alt="" />
+              <h5 class="">157000 рублей</h5>
+              <p class="text-center">
+                максимальная сумма, которую мы заплатили клиентам
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-3 p-3"
+            >
+              <img src="./img/person.png" alt="" />
+              <h5 class="">3 дня</h5>
+              <p class="text-center">
+                в среднем длится поиск офиса с использованием базы собственников
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-3 p-3"
+            >
+              <img src="img/pig.png" alt="" />
+              <h5>9000 руб/мес</h5>
+              <p class="text-center">
+                в среднем экономим клиентам на аренде помещений
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-3 p-3"
+            >
+              <img src="./img/dollar-p.png" alt="" />
+              <h5>87%</h5>
+              <p class="text-center">
+                собственников платят нам комиссию, а мы делимся ею с вами
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="taklif">
+      <div class="container">
+        <h1 class="text-center mb-5 mt-3">Наше предложение актуально для:</h1>
+        <div class="row">
+          <div class="col-lg-6">
+
+            <div class="d-flex flex-sm-row flex-column-reverse align-items-center text-sm-start text-center gap-3">
+              <div>
+                <h5 class="mb-3">Владельцев бизнеса</h5>
+                <p>
+                  Ищете помещение и хотите сэкономить средства компании – мы
+                  поможем вам в этом: выберем вместе с вами наилучший вариант,
+                  договоримся по условиям с собственником и вернем вам половину
+                  нашей комиссии.
+                </p>
+              </div>
+              <img src="./img/boy.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+
+            <div class="d-flex flex-sm-row flex-column-reverse align-items-center text-sm-start text-center gap-3">
+              <div>
+                <h5 class="mb-3">Сотрудников компании</h5>
+                <p>
+                  Если вы занимаетесь поиском нового помещения для вашей
+                  компании, мы поможем вам выбрать наилучший вариант, который
+                  устроит вашего руководителя, а также выплатим вам напрямую
+                  половину нашей комиссии.
+                </p>
+              </div>
+              <img class="order-1" src="./img/worker.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bonus">
+      <div class="container">
+        <h1 class="text-center mb-5 mt-5">Бонусом по вашему желанию мы:</h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              class="d-flex flex-sm-row flex-column align-items-center justify-content-center gap-5"
+            >
+              <img src="img/tavsiya.png" alt="" />
+              <div>
+                <h5>Составим компанию</h5>
+                <p>
+                  Составим компанию на просмотре и обратим внимание на нюансы,
+                  которые без опыта очень сложно заметить.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="d-flex flex-sm-row flex-column align-items-center justify-content-center gap-5"
+            >
+              <img class="order-lg-0 order-sm-1" src="img/coorect.png" alt="" />
+              <div>
+                <h5>Проверим договор</h5>
+                <p>
+                  Проверим договор аренды и юридический статус самого задания.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="d-flex flex-sm-row flex-column align-items-center justify-content-center gap-5"
+            >
+              <img  src="img/mablag'.png" alt="" />
+              <div>
+                <h5>Грамотно поторгуемся</h5>
+                <p>Грамотно поторгуемся и вы сможет сэкономить свои деньги.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="d-flex flex-sm-row flex-column align-items-center justify-content-center gap-5"
+            >
+              <img class="order-lg-0 order-sm-1" src="img/worker-2.png" alt="" />
+              <div>
+                <h5>Придадим спокойствия</h5>
+                <p>
+                  Придадим спокойствия и уверенности в успешном решении вопроса.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="end">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5">
+            <img class="w-100" src="img/endd.png" alt="" />
+          </div>
+          <div class="col-md-5">
+            <div
+              class="d-flex text-center flex-column justify-content-center align-items-center gap-3"
+            >
+              <h1>Получите крутую скидку до 50%</h1>
+              <p>
+                Оставьте заявку сейчас и получите персональную скидку на первый
+                месяц аренды или бесплатный переезд
+              </p>
+              <button class="btn btn-primary rounded-5 py-3 mb-6">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>
